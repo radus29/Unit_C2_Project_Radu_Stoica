@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <body>
+    <title>Lesson 5</title>
+    </head>
+    <main>
+      <h1>Lesson 5: Data Tables</h1>
+      <a href="https://unitc2projectradustoica-q1z0--8080--d3acb9e1.local-credentialless.webcontainer.io">Home Page</a>
+<h3> Data tables </h3>
+      <p>Tables allow web developers to arrange data into a grid-like structure.
+<br>
+    The essential elements for tables are:</p>
+<ol>
+  <li>table: creates the table</li>
+    <li> tr: creates a row</li>
+    <li>th: creates a heading cell</li>
+    <li>td: creates a data cell</li>
+</ol>
+      <p>You can force a table (or the cells within it) to have specific sizes. You can specify pixels (px) or percentage of the width/height of the page. Use the following code to do so: </p>
+        <pre>
+table {
+  width:100%;
+  height:500px;
+}
+th,td {
+  width:100px;
+  height:50px;
+}
+</pre>
+to break a cell across more than one row or column (or both), use the following attributes:
+      
+&lt;th colspan="2"&gt;
+&lt;td rowspan="2"&gt;
+      
+      <h4> Example of a table in HTML: </h4>
+
+<pre>
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Heading 1&lt;/th&gt;
+    &lt;th&gt;Heading 2&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Data 1&lt;/td&gt;
+    &lt;td&gt;Data 2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</pre>
+
+<h3> Example of a data table made using HTML </h3>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unit C2 Lesson 5 -- Radu Stoica</title>
+  <style>
+    table, th, td {
+      border:1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+<table>
+  <tr>
+  <th>Period</th>
+  <th>Class (A Day)</th>
+    <th>Teacher (A day)</th>
+    <th>Class (B day)</th>
+    <th>Teacher (B day)</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td> Spanish</td>
+    <td> Ms Africano </td>
+    <td> Spanish</td>
+    <td> Ms Africano </td>
+  </tr>
+  <tr>
+    <td>2</td>
+     <td> Global History</td>
+    <td> Mr. Caccamo </td>
+    <td> Global History </td>
+    <td> Mr. Caccamo</td>
+  </tr>
+  <tr>
+    <td>3</td>
+     <td> Pre-IB Digital Society</td>
+    <td>Shantanu Saha</td>
+    <td>Health</td>
+    <td>Dr. Helfenbein</td>
+  </tr>
+  <tr>
+    <td>4</td>
+     <td> Pre-IB Digital Society</td>
+    <td>Shantanu Saha</td>
+    <td>Physical Education</td>
+    <td> Mr. Powell</td>
+  </tr>
+  <tr>
+    <td>5</td>
+     <td> English</td>
+    <td> Ms. Gallo </td>
+    <td> English</td>
+    <td> Ms. Gallo </td>
+  </tr>
+  <tr>
+    <td>6</td>
+     <td>Lunch</td>
+    <td>N/A</td>
+    <td>Lunch</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>7</td>
+     <td> Algebra 2</td>
+    <td>Ms. Mun</td>
+    <td> Algebra 2</td>
+    <td>Ms. Mun</td>
+  </tr>
+  <tr>
+    <td>8</td>
+     <td> Physics</td>
+    <td>Mr. Lasko</td>
+    <td> Physics</td>
+    <td> Mr. Lasko</td>
+  </tr>
+  
+</table>
+</body>
+</html>
